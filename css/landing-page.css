@@ -74,7 +74,7 @@ nav ul ul ul {
 }
 
 .jumbotron {
-    background-image: url('https://images.unsplash.com/photo-1438978280647-f359d95ebda4?q=80&fm=jpg&s=73cb1239b517411534379c92660b2660');
+    background-image: url("img/banner.jpeg");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
