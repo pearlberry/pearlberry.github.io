@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background: rgba(0, 0, 0, .15);
+    background: #888888;
 }
 
 nav ul li:hover > ul {
