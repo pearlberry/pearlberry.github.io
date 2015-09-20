@@ -1,12 +1,17 @@
-.nav a {
+.navbar-fixed-top {
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+.navbar-fixed-top a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
 }
 
-.nav li {
+.navbar-fixed-top li {
   display: inline;
 }
 
@@ -20,7 +25,7 @@
 .jumbotron .container {
     position: relative;
     top: 100px;
-    margin-left: 20%;
+
 }
 
 .jumbotron h1 {
