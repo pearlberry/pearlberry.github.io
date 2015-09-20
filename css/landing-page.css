@@ -12,7 +12,7 @@
 }
 
 .navbar-fixed-top li {
-  display: inline;
+    display: inline;
 }
 
 .jumbotron {
@@ -24,8 +24,7 @@
 
 .jumbotron .container {
     position: relative;
-    top: 100px;
-
+    top: 10px;
 }
 
 .jumbotron h1 {
@@ -47,6 +46,38 @@
 
 .jumbotron a: hover {
     text-decoration: none;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 10px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social .fa-facebook:hover { 
+    color: #3b5998;
+}
+
+.social .fa-instagram:hover {
+    color: #3f729b;
+}
+
+.social .fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.social .fa-github:hover {
+    color: #6441a5;
 }
 
 .learn-more {
@@ -80,4 +111,5 @@
 .more-information p {
     font-size: 15px;
     margin-bottom: 13px;
+    color: #393c3d;
 }
