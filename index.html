@@ -14,6 +14,10 @@
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
@@ -23,21 +27,18 @@
 
 </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <ul class="pull-left">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-        </ul>
         <ul class="pull-right">
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
       </div>
     </nav>
 
-    <div class="jumbotron">
+    <div class="jumbotron" id="home">
       <div class="container">
         <h1>Hello!</h1>
   		<p>My name is Lauren Christianson. This is my personal site.</p>
@@ -51,31 +52,36 @@
  		</div>
     </div> 
 
-    <div class="more-information">
+    <div class="more-information" id="about">
         <div class="container">
             <h2>About Me</h2>
             <p>Born and raised in Bismarck, ND. Passionate about technology, travel, food, and video games.</p>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="thumbnail">
-                    <img src="https://images.unsplash.com/photo-1439396087961-98bc12c21176?q=80&fm=jpg&s=bce7579fe32b464cc2d53c5c144a2de4">
+                    <img src="img/fallout.jpg">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="thumbnail">
-                    <img src="https://images.unsplash.com/photo-1436874555419-bb64221c5c1d?q=80&fm=jpg&s=4593f78e972ee577c98775d55b66a344">
+                    <img src="img/honeymoon.jpg">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="thumbnail">
                     <img src="https://images.unsplash.com/photo-1436397543931-01c4a5162bdb?q=80&fm=jpg&s=29b3d57347ca107a06e5cfe262f24ef1">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="img/honeymoon.jpg">
                 </div>
             </div>
         </div>
         </div>
     </div>
 
-    <div class="learn-more">
+    <div class="learn-more" id="projects">
 	  <div class="container">
 		<div class="row">
 	      <div class="col-md-6">
