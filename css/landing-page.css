@@ -88,6 +88,17 @@ body {
     background-color: #f7f7f7;
 }
 
+.learn-more p {
+    font-size: 15px;
+    margin-bottom: 13px;
+    color: #393c3d;
+}
+
+.learn-more h2 {
+    color: #393c3d;
+    font-size: 28px;
+}
+
 .learn-more h3 {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
@@ -109,7 +120,7 @@ body {
 
 .more-information h2 {
     color: #393c3d;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .more-information p {
