@@ -21,7 +21,7 @@ body {
 
 .jumbotron {
     background-image: url("../img/banner.jpg");
-    height: 500px;
+    max-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -53,7 +53,7 @@ body {
 }
 
 .social {
-    margin: 0;
+    margin-bottom: 0;
     padding: 0;
 }
 
