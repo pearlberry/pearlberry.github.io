@@ -1,0 +1,23 @@
+{
+  "name": "lauren_package",
+  "version": "1.0.0",
+  "description": "Site design based on Skeleton Framework with modifications of my own. Thanks for reading!",
+  "main": "index.js",
+  "dependencies": {
+    "masonry-layout": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pearlberry/pearlberry.github.io.git"
+  },
+  "author": "lauren.christianson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pearlberry/pearlberry.github.io/issues"
+  },
+  "homepage": "https://github.com/pearlberry/pearlberry.github.io#readme"
+}
