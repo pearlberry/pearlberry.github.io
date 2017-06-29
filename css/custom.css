@@ -228,7 +228,7 @@
         width: 0%;
     }
     100% {
-        width: 75%;
+        width: 85%;
     }
 }
 @-webkit-keyframes progress-ror {
@@ -277,7 +277,7 @@
         width: 0%;
     }
     100% {
-        width: 65%;
+        width: 85%;
     }
 }
 @-moz-keyframes progress-ror {
@@ -285,7 +285,7 @@
         width: 0%;
     }
     100% {
-        width: 30%;
+        width: 75%;
     }
 }
 @-moz-keyframes progress-java {
@@ -326,7 +326,7 @@
         width: 0%;
     }
     100% {
-        width: 65%;
+        width: 85%;
     }
 }
 @keyframes progress-ror {
@@ -334,7 +334,7 @@
         width: 0%;
     }
     100% {
-        width: 30%;
+        width: 75%;
     }
 }
 @keyframes progress-java {
